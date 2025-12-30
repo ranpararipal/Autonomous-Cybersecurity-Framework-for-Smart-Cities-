@@ -1,0 +1,16 @@
+network:
+  topology: "mesh"
+  node_count: 1000
+  communication_protocol: "MQTT"
+
+simulation:
+  duration: 1000  # simulation time in seconds
+  latency: [50, 200]  # simulated latency range in ms
+
+model:
+  drl_algorithm: "DQN"
+  learning_rate: 0.001
+  epsilon_decay: 0.995
+  episodes: 10000
+  batch_size: 32
+
