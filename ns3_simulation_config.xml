@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns3_simulation>
+  <network>
+    <node id="1">
+      <type>IoT</type>
+      <position x="0" y="0"/>
+    </node>
+    <node id="2">
+      <type>IoT</type>
+      <position x="100" y="100"/>
+    </node>
+    <!-- More nodes here -->
+  </network>
+  <attack_scenarios>
+    <scenario type="DDoS" duration="30" />
+    <scenario type="Malware" duration="50" />
+  </attack_scenarios>
+</ns3_simulation>
